@@ -184,6 +184,21 @@
     text-align: center;
   }
  
+
+::-webkit-scrollbar{
+  background-color:rgba(12, 2, 2, 0.959);
+  width: 6px;
+}
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 10px rgba(228, 226, 226, 0.26);
+border-radius: 1px;
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(125deg,rgb(240, 237, 237),rgb(245, 237, 239) );
+border-radius: 14px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .header img{
         height: 500px;
