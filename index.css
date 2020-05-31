@@ -64,6 +64,7 @@
     overflow: hidden;
     letter-spacing: 1px;
     color: #fff;
+    font-family: 'Pacifico', cursive;
     animation: feel 5.3s ease infinite;
 }
 @keyframes feel{
@@ -149,7 +150,9 @@
     padding: 2px 16px;
     background-color: #f1f1f1;
   }
-  
+  .coupon1 img{
+      object-fit: cover;
+  }
   .promo {
     background: #ccc;
     padding: 3px;
@@ -164,10 +167,11 @@
   .coupon2 {
     border: 3px dotted rgb(17, 17, 17);
     width: 70%;
-    margin-top: 120px;
+    margin-top: 122px;
     border-radius: 15px;
     margin-left: 40px;
-    max-width: 600px;
+    max-width: 610px;
+    height: 570px;
   }
   .container2 {
     padding: 2px 16px;
@@ -185,26 +189,27 @@
   }
  
 
-::-webkit-scrollbar{
-  background-color:rgba(12, 2, 2, 0.959);
-  width: 6px;
-}
-::-webkit-scrollbar-track{
-box-shadow: inset 0 0 10px rgba(228, 226, 226, 0.26);
-border-radius: 1px;
-}
-::-webkit-scrollbar-thumb{
-background: linear-gradient(125deg,rgb(240, 237, 237),rgb(245, 237, 239) );
-border-radius: 14px;
-}
+  ::-webkit-scrollbar{
+    background-color:rgba(12, 2, 2, 0.959);
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 10px rgba(228, 226, 226, 0.26);
+  border-radius: 1px;
+  }
+  ::-webkit-scrollbar-thumb{
+  background: linear-gradient(125deg,rgb(240, 237, 237),rgb(245, 237, 239) );
+  border-radius: 14px;
+  }
+  
 
 
 @media only screen and (max-width: 600px) {
     .header img{
-        height: 500px;
+        height: 550px;
     }
     .left-header h1{
-        margin-top: -522px;
+        margin-top: -562px;
         left: 10px;
     }
     .left-header h2{
@@ -216,25 +221,25 @@ border-radius: 14px;
     .left-header h3{
         top: 310px;
         left: 20px;
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .mouse{
-        top: -250px;
+        top: -80px;
         left: 120px;
         width:28px;
         height: 50px;
     }
     .left-section img{
-       margin-top: 20px;
-        margin-left: 8px;
+       margin-top: 50px;
+        margin-left: 10px;
         border-radius: 30px;
-        width: 80%;
-        height: 400px;
+        width: 150px;
+        height: 300px;
         object-fit: cover;
     }
     .right-section p{
-        margin-left: -60px;
+        margin-left: -50px;
     margin-top: 60px;
     line-height:15px;
         font-size: 7px;
